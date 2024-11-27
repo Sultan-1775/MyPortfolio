@@ -1,0 +1,104 @@
+/* Основные стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb; /* Светлый серо-голубой фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/Фон.jpg'); /* Путь к изображению */
+    background-size: cover; /* Изображение будет растягиваться, чтобы покрыть весь экран */
+    background-position: center center; /* Центрирует изображение */
+    background-attachment: fixed; /* Фон будет фиксирован, когда прокручиваешь страницу */
+    background-repeat: no-repeat; /* Фон не будет повторяться */
+}
+/* Стили для хедера */
+header {
+    background-color: #40afce; /* Зеленый фон */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Навигация */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333; /* Темный цвет для при наведении */
+}
+
+/* Основной контент */
+main {
+    padding: 100px 20px 20px;
+}
+
+section {
+    background-color: #ffffff; /* Белый фон для секций */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки в секциях */
+section h2 {
+    font-size: 2rem;
+    color: #4CAF50; /* Зеленый цвет для заголовков */
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Текст в секциях */
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555; /* Темно-серый текст */
+}
+
+/* Стили для списка проектов */
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+footer {
+    background-color: #333; /* Темный фон для футера */
+    color: white; /* Цвет текста белый */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0; /* Убираем отступы вокруг текста */
+    font-size: 1rem; /* Размер шрифта */
+    color: white; /* Цвет текста можно установить в желтый */
+}
